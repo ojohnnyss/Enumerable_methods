@@ -1,2 +1,2 @@
 # Enumerable_methods
-Project 2 micoverse's ruby course
+It's my version implementation of Ruby Enumerable methods

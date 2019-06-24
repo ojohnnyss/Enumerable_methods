@@ -110,5 +110,5 @@ def multiply_els(arr)
   puts arr.my_inject(1) {| prod, ele| prod * ele }
 end
 		    
-a = [3,4,5]
-multiply_els(a) # 60
+a = [2,4,5]
+multiply_els(a) # 40

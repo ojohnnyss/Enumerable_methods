@@ -85,10 +85,10 @@ end
 def my_map(proc = nil)
   output = []
   self.my_each do |x|
-    if proc && block_given?
+    if proc  
       output.push(yield(proc.call(x)))
-    elsif proc
-      output.push(proc.call(x))
+    elsif block_given?
+      output.push(yield(x))
     end
   end
   return output

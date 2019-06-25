@@ -89,9 +89,6 @@ def my_map(proc = nil)
       output.push(yield(proc.call(x)))
     elsif proc
       output.push(proc.call(x))
-    else
-      puts "error, block will not run without proc"
-      break
     end
   end
   return output

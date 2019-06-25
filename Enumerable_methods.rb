@@ -26,7 +26,7 @@ def my_select
    return output	  
 end
 	
-def my_all
+def my_all?
   out = true
   self.my_each do |x|
     if yield(x) == false
